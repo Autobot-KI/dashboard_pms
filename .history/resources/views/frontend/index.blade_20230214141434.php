@@ -17,10 +17,9 @@
    "></a>
 </div>
 <section class="banner-style-two">
-    <div class="pattern-layer" style="background-image: url(/detox/assets/images/shape/pattern-2.png)"></div>
     <div class="auto-container">
         <div class="content-box">
-            <div class="sec-title text-center mt-4">
+            <div class="sec-title text-center">
                 <p>Dashboard</p>
                 <h2>PT KIMIA FARMA DIAGNOSTIKA</h2>
             </div>
@@ -49,7 +48,7 @@
                                                             </div>
                                                             <h3><a href="">Pelayanan</a></h3>
                                                             <p></p>
-                                                            <div class="btn-box"><a href="dashboard/pelayanan" class="theme-btn style-two">Lihat</a></div>
+                                                            <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
                                                         <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
                                                     </div>
                                                 </div>
@@ -67,7 +66,7 @@
                                                             </div>
                                                             <h3><a href="">Pemeriksaan</a></h3>
                                                             <p></p>
-                                                            <div class="btn-box"><a href="dashboard/pemeriksaan" class="theme-btn style-two">Lihat</a></div>
+                                                            <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
                                                         <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
                                                     </div>
                                                 </div>

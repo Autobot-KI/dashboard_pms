@@ -54,30 +54,10 @@
 </body>
 
 <!-- Scripts -->
+@stack('before-scripts')
 
 
-<!--Scroll to top-->
-<button class="scroll-top scroll-to-target" data-target="html">
-    <span class="fa fa-arrow-up"></span>
-</button>
 
-
-<!-- jequery plugins -->
-<script src="{{ asset('detox/assets/js/jquery.js') }}"></script>
-<script src="{{ asset('detox/assets/js/popper.min.js') }}"></script>
-<script src="{{ asset('detox/assets/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('detox/assets/js/owl.js') }}"></script>
-<script src="{{ asset('detox/assets/js/wow.js') }}"></script>
-<script src="{{ asset('detox/assets/js/validation.js') }}"></script>
-<script src="{{ asset('detox/assets/js/jquery.fancybox.js') }}"></script>
-<script src="{{ asset('detox/assets/js/appear.js') }}"></script>
-<script src="{{ asset('detox/assets/js/scrollbar.js') }}"></script>
-<script src="{{ asset('detox/assets/js/tilt.jquery.js') }}"></script>
-<script src="{{ asset('detox/assets/js/jQuery.style.switcher.min.js') }}"></script>
-
-<!-- main-js -->
-<script src="{{ asset('detox/assets/js/script.js') }}"></script>
-
-
+@stack('after-scripts')
 
 </html>

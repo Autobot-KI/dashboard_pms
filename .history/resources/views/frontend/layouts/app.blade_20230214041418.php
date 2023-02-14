@@ -54,7 +54,7 @@
 </body>
 
 <!-- Scripts -->
-
+@stack('before-scripts')
 
 <!--Scroll to top-->
 <button class="scroll-top scroll-to-target" data-target="html">
@@ -78,6 +78,6 @@
 <!-- main-js -->
 <script src="{{ asset('detox/assets/js/script.js') }}"></script>
 
-
+@stack('after-scripts')
 
 </html>

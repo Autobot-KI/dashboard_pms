@@ -52,7 +52,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Frontend', 'as' => 'frontend.
 
         //route dashboard
         Route::get('dashboard/pelayanan', 'FrontendController@pelayanan')->name('dashboard');
-        Route::get('dashboard/pemeriksaan', 'FrontendController@pemeriksaan')->name('dashboard');
+        Route::get('dashboard/pelayanan', 'FrontendController@pemeriksaan')->name('dashboard');
     });
 });
 

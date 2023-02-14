@@ -44,19 +44,11 @@ class FrontendController extends Controller
 
     }
 
-    public function pelayanan()
+    public function terms()
     {
         $body_class = '';
 
-        return view('frontend.data.pelayanan_project', compact('body_class'));
-
-    }
-
-    public function pemeriksaan()
-    {
-        $body_class = '';
-
-        return view('frontend.data.pemeriksaan_project', compact('body_class'));
+        return view('frontend.terms', compact('body_class'));
 
     }
 }

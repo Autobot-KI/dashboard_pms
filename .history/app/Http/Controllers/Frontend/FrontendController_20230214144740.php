@@ -52,7 +52,7 @@ class FrontendController extends Controller
 
     }
 
-    public function pemeriksaan()
+    public function pelayanan()
     {
         $body_class = '';
 

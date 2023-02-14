@@ -49,10 +49,6 @@ Route::group(['namespace' => 'App\Http\Controllers\Frontend', 'as' => 'frontend.
         Route::patch('profile/changePassword/{username}', ['as' => "$module_name.changePasswordUpdate", 'uses' => "$controller_name@changePasswordUpdate"]);
         Route::get("$module_name/emailConfirmationResend/{id}", ['as' => "$module_name.emailConfirmationResend", 'uses' => "$controller_name@emailConfirmationResend"]);
         Route::delete("$module_name/userProviderDestroy", ['as' => "$module_name.userProviderDestroy", 'uses' => "$controller_name@userProviderDestroy"]);
-
-        //route dashboard
-        Route::get('dashboard/pelayanan', 'FrontendController@pelayanan')->name('dashboard');
-        Route::get('dashboard/pemeriksaan', 'FrontendController@pemeriksaan')->name('dashboard');
     });
 });
 

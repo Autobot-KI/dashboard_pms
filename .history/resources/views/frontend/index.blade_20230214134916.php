@@ -7,20 +7,19 @@
 <section class="bg-gray-100 mb-20">
 <!-- banner-style-two -->
 <div class="image-box">
-    <a href="{{route('login')}}">
     <img src="https://labkimiafarma.co.id/assets/logo/KFDLogo_min.png" alt="" style="height:50px;
      display: block;
         margin-left: auto;
   margin-right: auto;
   width: 180px;
   margin-top:20px;
-   "></a>
+   ">
 </div>
 <section class="banner-style-two">
-    <div class="pattern-layer" style="background-image: url(/detox/assets/images/shape/pattern-2.png)"></div>
+    <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-2.png)"></div>
     <div class="auto-container">
         <div class="content-box">
-            <div class="sec-title text-center mt-4">
+            <div class="sec-title text-center">
                 <p>Dashboard</p>
                 <h2>PT KIMIA FARMA DIAGNOSTIKA</h2>
             </div>
@@ -33,10 +32,11 @@
                                     <div class="row align-items-center clearfix">
                                         <div class="col-lg-12 col-md-12 col-sm-12 content-column">
                                             <div class="content-box">
-                                                <h3>Project Dashboard</h3>
+                                                <h3>Dashboard Project</h3>
                                                 <!-- looping -->
-                                            <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 feature-block mt-4 mb-4">
+                                                <div class="auto-container">
+                                                    <div class="row">
+                                                <div class="col-lg-4 col-md-6 col-sm-12 feature-block mt-4 mb-4">
                                                     <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
                                                         <div class="inner-box js-tilt">
                                                             <div class="icon-box">
@@ -47,48 +47,14 @@
                                                                 </div>
                                                                 <i class="flaticon-pie-chart"></i>
                                                             </div>
-                                                            <h3><a href="">Pelayanan</a></h3>
-                                                            <p></p>
-                                                            <div class="btn-box"><a href="dashboard/pelayanan" class="theme-btn style-two">Lihat</a></div>
-                                                        <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
-                                                    </div>
-                                                </div>
-                                                <!-- looping -->
-                                                <div class="col-lg-6 col-md-6 col-sm-12 feature-block mt-4 mb-4">
-                                                    <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
-                                                        <div class="inner-box js-tilt">
-                                                            <div class="icon-box">
-                                                                <div class="anim-icon">
-                                                                    <span class="icon icon-1"></span>
-                                                                    <span class="icon icon-2"></span>
-                                                                    <span class="icon icon-3"></span>
-                                                                </div>
-                                                                <i class="flaticon-pie-chart"></i>
-                                                            </div>
-                                                            <h3><a href="">Pemeriksaan</a></h3>
-                                                            <p></p>
-                                                            <div class="btn-box"><a href="dashboard/pemeriksaan" class="theme-btn style-two">Lihat</a></div>
-                                                        <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
-                                                    </div>
-                                                </div>
-                                                {{-- <div class="col-lg-3 col-md-6 col-sm-12 feature-block mt-4 mb-4">
-                                                    <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
-                                                        <div class="inner-box js-tilt">
-                                                            <div class="icon-box">
-                                                                <div class="anim-icon">
-                                                                    <span class="icon icon-1"></span>
-                                                                    <span class="icon icon-2"></span>
-                                                                    <span class="icon icon-3"></span>
-                                                                </div>
-                                                                <i class="flaticon-pie-chart"></i>
-                                                            </div>
-                                                            <h3><a href="">Pemeriksaan</a></h3>
+                                                            <h3><a href="">Monitoring Project 11</a></h3>
                                                             <p></p>
                                                             <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
                                                         <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6 col-sm-12 feature-block mt-4 mb-4">
+                                                <!-- looping -->
+                                                <div class="col-lg-4 col-md-6 col-sm-12 feature-block mt-4 mb-4">
                                                     <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
                                                         <div class="inner-box js-tilt">
                                                             <div class="icon-box">
@@ -99,14 +65,49 @@
                                                                 </div>
                                                                 <i class="flaticon-pie-chart"></i>
                                                             </div>
-                                                            <h3><a href="">Pemeriksaan</a></h3>
+                                                            <h3><a href="">Monitoring Project 11</a></h3>
                                                             <p></p>
                                                             <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
                                                         <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
                                                     </div>
-                                                </div> --}}
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 feature-block mt-4 mb-4">
+                                                    <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
+                                                        <div class="inner-box js-tilt">
+                                                            <div class="icon-box">
+                                                                <div class="anim-icon">
+                                                                    <span class="icon icon-1"></span>
+                                                                    <span class="icon icon-2"></span>
+                                                                    <span class="icon icon-3"></span>
+                                                                </div>
+                                                                <i class="flaticon-pie-chart"></i>
+                                                            </div>
+                                                            <h3><a href="">Monitoring Project 11</a></h3>
+                                                            <p></p>
+                                                            <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
+                                                        <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 feature-block mt-4 mb-4">
+                                                    <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
+                                                        <div class="inner-box js-tilt">
+                                                            <div class="icon-box">
+                                                                <div class="anim-icon">
+                                                                    <span class="icon icon-1"></span>
+                                                                    <span class="icon icon-2"></span>
+                                                                    <span class="icon icon-3"></span>
+                                                                </div>
+                                                                <i class="flaticon-pie-chart"></i>
+                                                            </div>
+                                                            <h3><a href="">Monitoring Project 11</a></h3>
+                                                            <p></p>
+                                                            <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
+                                                        <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
+                                                    </div>
+                                                </div>
+                                                
                                             </div>
-                                        
+                                        </div>
                                             </div>
                                         </div>
                                     </div>
@@ -115,8 +116,12 @@
                                     <div class="row align-items-center clearfix">
                                         <div class="col-lg-12 col-md-12 col-sm-12 content-column">
                                             <div class="content-box">
-                                                <h3>Belum Tersedia Dashboard</h3>
-                                                
+                                                <h3>Acquire New Customers More Efficiently</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.</p>
+                                                <ul class="list-item">
+                                                    <li>Various Analysis Options</li>
+                                                    <li>Page Load Details (time, size, number of requests)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +130,12 @@
                                     <div class="row align-items-center clearfix">
                                         <div class="col-lg-12 col-md-12 col-sm-12 content-column">
                                             <div class="content-box">
-                                                <h3>Belum Tersedia Dashboard</h3>
+                                                <h3>Acquire New Customers More Efficiently</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.</p>
+                                                <ul class="list-item">
+                                                    <li>Various Analysis Options</li>
+                                                    <li>Page Load Details (time, size, number of requests)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -134,18 +144,41 @@
                                     <div class="row align-items-center clearfix">
                                         <div class="col-lg-12 col-md-12 col-sm-12 content-column">
                                             <div class="content-box">
-                                                <h3>Belum Tersedia Dashboard</h3>
+                                                <h3>Acquire New Customers More Efficiently</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.</p>
+                                                <ul class="list-item">
+                                                    <li>Various Analysis Options</li>
+                                                    <li>Page Load Details (time, size, number of requests)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>        
                             </div>
                         </div>
+                    {{-- <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-one wow flipInY animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: flipInY;">
+                            <div class="inner-box js-tilt">
+                                <div class="icon-box">
+                                    <div class="anim-icon">
+                                        <span class="icon icon-1"></span>
+                                        <span class="icon icon-2"></span>
+                                        <span class="icon icon-3"></span>
+                                    </div>
+                                    <i class="flaticon-pie-chart"></i>
+                                </div>
+                                <h3><a href="">Monitoring Project 11</a></h3>
+                                <p></p>
+                                <div class="btn-box"><a href="" class="theme-btn style-two">Lihat</a></div>
+                            <div class="js-tilt-glare" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"><div class="js-tilt-glare-inner" style="position: absolute; top: 50%; left: 50%; pointer-events: none; background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); width: 740px; height: 740px; transform: rotate(180deg) translate(-50%, -50%); transform-origin: 0% 0%; opacity: 0;"></div></div></div>
+                        </div>
+                    </div> --}}
                     </div>
                 </div>
             </div>
             <div class="image-box">
                 <section class="service-style-two">
+                    <div class="pattern-layer wow slideInRight animated animated animated" data-wow-delay="500ms" data-wow-duration="1500ms" style="background-image: url(&quot;assets/images/shape/pattern-10.png&quot;); visibility: visible; animation-duration: 1500ms; animation-delay: 500ms; animation-name: slideInRight;"></div>
                     <div class="auto-container">
                         <div class="tabs-box">
                             <div class="tab-btn-box">
@@ -197,21 +230,6 @@
         </div>
     </div>
 </section>
-@can('view_backend')
-<section class="cta-section bg-color-2">
-    <div class="pattern-box">
-        <div class="pattern-1" style="background-image: url(/detox/assets/images/shape/pattern-7.png);"></div>
-        <div class="pattern-2" style="background-image: url(/detox/assets/images/shape/pattern-8.png);"></div>
-    </div>
-    <div class="auto-container">
-        <div class="content-box text-center wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-            <h2>Panel Admin</h2>
-
-            <a href="{{ route("backend.dashboard") }}" class="theme-btn style-three">Panel Admin</a>
-        </div>
-    </div>
-</section>
-@endif
 <!-- banner-style-two end -->
 </section>
 @endsection
